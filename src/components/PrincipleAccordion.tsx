@@ -24,8 +24,14 @@ interface PrincipleAccordionProps {
 }
 
 const PrincipleAccordion = ({ principles }: PrincipleAccordionProps) => {
-  const isContentArray = (content: any): content is ContentItem[] => {
-    return content.length > 0 && 'title' in content[0];
+  // Improved type guard function that first checks if content is an array
+  // and then checks if the first item is an object with a 'title' property
+  const isContentArray = (content: any[]): content is ContentItem[] => {
+    return Array.isArray(content) && 
+           content.length > 0 && 
+           typeof content[0] === 'object' &&
+           content[0] !== null &&
+           'title' in content[0];
   };
 
   return (
