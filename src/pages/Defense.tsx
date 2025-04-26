@@ -1,12 +1,12 @@
-
 import PrincipleAccordion from "@/components/PrincipleAccordion";
+import Navigation from "@/components/Navigation";
 
 const defensePrinciples = [
   {
     id: "mitte-zu",
     title: "1. Mitte zu",
     content: [
-      "- Wir verhindern Drives durch die Mitte und lenken den Ball zur Seitenlinie"
+      "Wir verhindern Drives durch die Mitte und lenken den Ball zur Seitenlinie"
     ]
   },
   {
@@ -42,6 +42,7 @@ const defensePrinciples = [
 const Defense = () => {
   return (
     <div className="min-h-screen p-4 md:p-8 max-w-4xl mx-auto">
+      <Navigation />
       <h1 className="text-4xl font-bold mb-8 text-center">Defense Prinzipien</h1>
       <PrincipleAccordion principles={defensePrinciples} />
     </div>

@@ -5,11 +5,17 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
+interface ContentItem {
+  title: string;
+  items: string[];
+}
 
 interface Principle {
   id: string;
   title: string;
-  content: string[];
+  content: string[] | ContentItem[];
   video?: string;
 }
 
@@ -18,6 +24,10 @@ interface PrincipleAccordionProps {
 }
 
 const PrincipleAccordion = ({ principles }: PrincipleAccordionProps) => {
+  const isContentArray = (content: any): content is ContentItem[] => {
+    return content.length > 0 && 'title' in content[0];
+  };
+
   return (
     <Accordion type="single" collapsible className="w-full">
       {principles.map((principle) => (
@@ -27,11 +37,32 @@ const PrincipleAccordion = ({ principles }: PrincipleAccordionProps) => {
           </AccordionTrigger>
           <AccordionContent>
             <div className="principle-content">
-              {principle.content.map((item, index) => (
-                <p key={index}>{item}</p>
-              ))}
+              {isContentArray(principle.content) ? (
+                <div className="space-y-6">
+                  {(principle.content as ContentItem[]).map((section, idx) => (
+                    <Card key={idx} className="bg-[#f57520]/5 border-[#f57520]/20">
+                      <CardHeader>
+                        <CardTitle className="text-xl text-[#f57520]">{section.title}</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <ul className="list-disc pl-4 space-y-2">
+                          {section.items.map((item, itemIdx) => (
+                            <li key={itemIdx}>{item}</li>
+                          ))}
+                        </ul>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              ) : (
+                <ul className="list-disc pl-4 space-y-2">
+                  {principle.content.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              )}
               {principle.video && (
-                <div className="aspect-video mt-6">
+                <div className="aspect-video mt-6 max-w-2xl mx-auto">
                   <iframe
                     className="w-full h-full rounded-lg"
                     src={`https://www.youtube.com/embed/${principle.video}`}
