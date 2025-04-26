@@ -46,14 +46,17 @@ const PrincipleAccordion = ({ principles }: PrincipleAccordionProps) => {
               {isContentArray(principle.content) ? (
                 <div className="space-y-6">
                   {(principle.content as ContentItem[]).map((section, idx) => (
-                    <Card key={idx} className="bg-[#f57520]/5 border-[#f57520]/20">
+                    <Card 
+                      key={idx} 
+                      className="bg-[#f57520]/10 border-[#f57520]/30 rounded-xl"
+                    >
                       <CardHeader>
                         <CardTitle className="text-xl text-[#f57520]">{section.title}</CardTitle>
                       </CardHeader>
                       <CardContent>
                         <ul className="list-disc pl-4 space-y-2">
                           {section.items.map((item, itemIdx) => (
-                            <li key={itemIdx}>{item}</li>
+                            <li key={itemIdx} className="text-white/80">{item}</li>
                           ))}
                         </ul>
                       </CardContent>
@@ -63,12 +66,12 @@ const PrincipleAccordion = ({ principles }: PrincipleAccordionProps) => {
               ) : (
                 <ul className="list-disc pl-4 space-y-2">
                   {principle.content.map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li key={index} className="text-white/80">{item}</li>
                   ))}
                 </ul>
               )}
               {principle.video && (
-                <div className="aspect-video mt-6 max-w-2xl mx-auto">
+                <div className="aspect-video mt-6 max-w-xl mx-auto">  {/* Reduced max-w from max-w-2xl to max-w-xl */}
                   <iframe
                     className="w-full h-full rounded-lg"
                     src={`https://www.youtube.com/embed/${principle.video}`}
