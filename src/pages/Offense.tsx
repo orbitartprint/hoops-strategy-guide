@@ -59,12 +59,33 @@ const offensePrinciples = [
     title: "1. Transition",
     content: [
       {
-        title: "Grundprinzipien",
+        title: "Wir pushen den Ball",
         items: [
-          "Wir pushen den Ball – Wer immer den Ball in der Defense gewinnt (auch aus dem Einwurf), pusht den Ball sofort nach vorne mit 2–3 harten Dribblings",
-          "Umschalten ohne Verzögerung – Alle Spielerinnen orientieren sich sofort in die Offense und sprinten explosiv ins Vorfeld",
-          "Transition entlang der Seitenlinie – Die Flügelspielerinnen laufen nahe der Seitenlinie und sind ab der Mittellinie anspielbar",
-          "Ball ist schneller als Beine – Wir bevorzugen einen Pass auf den Flügel, um schneller hinter die Defense zu kommen",
+          "Wer immer den Ball in der Defense gewinnt (auch aus dem Einwurf), pusht den Ball sofort nach vorne mit 2–3 harten Dribblings"
+          
+        ]
+      },
+      {
+        title: "Umschalten ohne Verzögerung",
+        items: [
+          "Alle Spielerinnen orientieren sich sofort in die Offense und sprinten explosiv ins Vorfeld",
+        ]
+      },
+      {
+        title: "Sprint entlang der Seitenlinie",
+        items: [
+          "Die Flügelspielerinnen laufen nahe der Seitenlinie und sind ab der Mittellinie anspielbar",
+        ]
+      },
+      {
+        title: "Ball ist schneller als Beine",
+        items: [
+          "Wir bevorzugen einen Pass auf den Flügel, um schneller hinter die Defense zu kommen",
+        ]
+      },
+      {
+        title: "Positionen halten",
+        items: [
           "Flügel halten ihre Positionen und besetzen am Ende des Sprints die Ecken für optimales Spacing"
         ]
       }
