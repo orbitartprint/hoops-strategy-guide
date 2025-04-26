@@ -11,7 +11,7 @@ const Navigation = () => {
       <Button 
         onClick={() => navigate("/")} 
         variant="outline"
-        className="hover:bg-[#f57520]/10"
+        className="hover:bg-[#f57520]/10 bg-[#f57520]/10 rounded-xl border-[#f57520]/30"
       >
         <ArrowLeft className="mr-2" />
         Zurück
@@ -19,14 +19,14 @@ const Navigation = () => {
       <Button
         onClick={() => navigate("/defense")}
         variant="outline"
-        className="hover:bg-[#f57520]/10"
+        className="hover:bg-[#f57520]/10 bg-[#f57520]/10 rounded-xl border-[#f57520]/30"
       >
         Defense
       </Button>
       <Button
         onClick={() => navigate("/offense")}
         variant="outline"
-        className="hover:bg-[#f57520]/10"
+        className="hover:bg-[#f57520]/10 bg-[#f57520]/10 rounded-xl border-[#f57520]/30"
       >
         Offense
       </Button>
@@ -35,3 +35,4 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
