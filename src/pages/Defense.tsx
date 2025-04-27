@@ -9,45 +9,45 @@ const defensePrinciples = [
       {
         title: "Kurzer Einwurf",
         items: [
-          "Wir wollen einen kurzen Einwurf bis maximal zur Freiwurflinie erzwingen",
-          "Wir entscheiden, ob wir die Matchups belassen oder switchen",
-          "Verteidigung im Vorfeld ist hinter den Gegenspielerinnen, Verteidigung im Rückfeld ist seitlich (Deny) von den Gegenspielerinnen"
+          "Wir wollen einen kurzen Einwurf bis maximal zur Freiwurflinie erzwingen.",
+          "Wir entscheiden, ob wir die Matchups belassen oder switchen.",
+          "Verteidigung im Vorfeld ist hinter den Gegenspielerinnen, Verteidigung im Rückfeld ist seitlich (Deny) von den Gegenspielerinnen."
         ]
       },
       {
         title: "Einwurf zulassen",
         items: [
-          "Wir vermeiden ein hartes Deny beim Einwurf, um einen Lobpass zu vermeiden und erhalten unsere defensive Struktur",
-          "Wir switchen die Blöcke",
-          "Wenn nötig, dirigieren wir den Ball zu schwächeren Ballhandlern"
+          "Wir vermeiden ein hartes Deny beim Einwurf, um einen Lobpass zu vermeiden und erhalten unsere defensive Struktur.",
+          "Wir switchen die Blöcke.",
+          "Wenn nötig, dirigieren wir den Ball zu schwächeren Ballhandlern."
         ]
       },
       {
         title: "Maximaler Druck am Ball",
         items: [
-          "Wir üben sofort nach dem Einwurf maximalen und stetigen Druck am Ball aus und schränken die Passoptionen ein",
-          "Wir halten den Ballhandler unter stetigem Stress, um Turnover zu erzwingen"
+          "Wir üben sofort nach dem Einwurf maximalen und stetigen Druck am Ball aus und schränken die Passoptionen ein.",
+          "Wir halten den Ballhandler unter stetigem Stress, um Turnover zu erzwingen."
         ]
       },
       {
         title: "Mitte zu",
         items: [
-          "Wir machen die Mitte zu und zwingen den Ballhandler zur Seitenlinie",
-          "Wir lösen eine Trap für maximalen Druck aus, wenn ein unkontrolliertes Dribbling zur Seitenlinie erfolgt"
+          "Wir machen die Mitte zu und zwingen den Ballhandler zur Seitenlinie.",
+          "Wir lösen eine Trap für maximalen Druck aus, wenn ein unkontrolliertes Dribbling zur Seitenlinie erfolgt."
         ]
       },
       {
         title: "Keine Fouls",
         items: [
-          "Wir vermeiden \"einfache\" Fouls, indem wir nicht reingreifen",
-          "Wir erzwingen Notpässe aus der Drucksituation heraus, die die absinkende Verteidigung abfangen kann"
+          "Wir vermeiden \"einfache\" Fouls, indem wir nicht reingreifen.",
+          "Wir erzwingen Notpässe aus der Drucksituation heraus, die die absinkende Verteidigung abfangen kann."
         ]
       },
       {
         title: "Rotation der übrigen Verteidiger",
         items: [
-          "Während der Trapsituation deckt die absinkende Verteidigung mögliche Passwege ab",
-          "Eine Verteidigung deckt die Seitenlinie ab, eine Verteidigung kontrolliert den 45°-Pass und eine Verteidigung schützt den Korb"
+          "Während der Trapsituation deckt die absinkende Verteidigung mögliche Passwege ab.",
+          "Eine Verteidigung deckt die Seitenlinie ab, eine Verteidigung kontrolliert den 45°-Pass und eine Verteidigung schützt den Korb."
         ]
       }
     ],
