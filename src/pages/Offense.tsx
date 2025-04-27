@@ -10,32 +10,32 @@ const offensePrinciples = [
       {
         title: "Wir pushen den Ball",
         items: [
-          "Wer immer den Ball in der Defense gewinnt (auch aus dem Einwurf), pusht den Ball sofort nach vorne mit 2–3 harten Dribblings"
-          
+          "Jede pusht den Ball nach einem Ballgewinn mit schnellen harten Dribblings nach vorne. Auch nach dem Einwurf.",
+          "Wir sind explosiv."
         ]
       },
       {
         title: "Umschalten ohne Verzögerung",
         items: [
-          "Alle Spielerinnen orientieren sich sofort in die Offense und sprinten explosiv ins Vorfeld",
+          "Wir orientieren uns ohne Verzögerung in die Offense und sprinten ins Vorfeld.",
         ]
       },
       {
         title: "Sprint entlang der Seitenlinie",
         items: [
-          "Die Flügelspielerinnen laufen nahe der Seitenlinie und sind ab der Mittellinie anspielbar",
+          "Die Flügelspielerinnen laufen nahe der Seitenlinie und sind ab der Mittellinie anspielbar.",
         ]
       },
       {
         title: "Ball ist schneller als Beine",
         items: [
-          "Wir bevorzugen einen Pass auf den Flügel, um schneller hinter die Defense zu kommen",
+          "Wir bevorzugen einen Pass auf den Flügel, um schneller hinter die Defense zu kommen.",
         ]
       },
       {
         title: "Positionen halten",
         items: [
-          "Flügel halten ihre Positionen und besetzen am Ende des Sprints die Ecken für optimales Spacing"
+          "Die Flügel halten ihre Positionen und besetzen am Ende des Sprints die Ecken für optimales Spacing."
         ]
       }
     ],
@@ -48,10 +48,11 @@ const offensePrinciples = [
       {
         title: "Prinzipien",
         items: [
-          "Fließender Übergang in die Halfcourt-Offense",
+          "Fließender Übergang von Transition in die Halfcourt-Offense",
           "Erkennen von Vorteil oder Neutralität",
-          "Bei Neutralität lösen wir ein Hand-off oder Screen aus",
-          "Kommunikation, welche Varianten gewählt werden, erfolgt innerhalb des Teams"
+          "Neutral heißt, alle Spieler werden verteidigt und wir haben keinen Vorteil, weil ein Gegenspieler zu weit weg ist, zu langsam, zu klein oder wir eine Überzahl irgendwo auf dem Feld haben (1-0, 2-1, usw.).",
+          "Bei Neutralität lösen wir ein Hand-off oder Screen aus.",
+          "Welche Screen- oder Hand-off-Varianten wir wählen und wie wir diese auf dem Feld kommunizieren, ist in Klärung und werden wir im. Team gemeinsam erarbeiten"
         ]
       }
     ]
@@ -63,7 +64,7 @@ const offensePrinciples = [
       {
         title: "Grundprinzip",
         items: [
-          "Sobald ein Vorteil entsteht, lassen wir die Defense wie Dominosteine kollabieren"
+          "Sobald ein Vorteil (Gegenspielerin zu weit weg, Gegenspielerin nicht in Position, Überzahl, Mismatch, usw.) entsteht, lassen wir die Defense wie Dominosteine kollabieren."
         ]
       },
       {
@@ -71,24 +72,34 @@ const offensePrinciples = [
         items: [
           "Würfe in Korbnähe (Korbleger, Post-up, Floater, etc.)",
           "Freier Dreier",
-          "Freier Wurf",
-          "Kein schlechter Wurf gegen Verteidigung oder außerhalb des eigenen Repertoires"
+          "Freier Wurf aus der Mitteldistanz",
+          "Wurf gegen Verteidigung oder außerhalb des eigenen Repertoires"
         ]
       },
       {
-        title: "Entscheidungen",
+        title: "Null-Sekunden Entscheidungen",
         items: [
-          "Null-Sekunden Entscheidungen",
-          "Zone schnell freimachen",
-          "Gutes Spacing für Drive und Pass"
+          "Wir möchten schnelle Entscheidungen finden, um der Defense keine Chance zu geben, sich wieder zu sortieren."
+        ]
+      },
+      {
+        title: "Zone schnell freimachen",
+        items: [
+          "Somit hat die Mitspielerin genügend Platz für den nächsten Drive."
+        ]
+      },
+      {
+        title: "Spacing",
+        items: [
+          "Wir stehen so, dass eine Gegenspielerin nicht 2 verteidigen kann."
         ]
       },
       {
         title: "Entscheidungshierarchie",
         items: [
-          "Gegenspielerin zu weit weg → Wurf",
-          "Gegenspielerin kommt zu spät → Drive",
-          "Hilfe kommt → Pass"
+          "Gegenspielerin ist zu weit weg → Wurf",
+          "Gegenspielerin kommt zu spät oder ist zu nah → Drive",
+          "Hilfe kommt oder Verteidigung ist vor dem Ball → Pass"
         ]
       }
     ]
