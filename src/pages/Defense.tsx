@@ -3,38 +3,90 @@ import Navigation from "@/components/Navigation";
 
 const defensePrinciples = [
   {
-    id: "mitte-zu",
-    title: "1. Mitte zu",
+    id: "trap",
+    title: "1. Trap Defense",
     content: [
-      "Wir verhindern Drives durch die Mitte und lenken den Ball zur Seitenlinie"
-    ]
+      {
+        title: "Kurzer Einwurf",
+        items: [
+          "Wir wollen einen kurzen Einwurf bis maximal zur Freiwurflinie erzwingen",
+          "Wir entscheiden, ob wir die Matchups belassen oder switchen",
+          "Verteidigung im Vorfeld ist hinter den Gegenspielerinnen, Verteidigung im Rückfeld ist seitlich (Deny) von den Gegenspielerinnen"
+        ]
+      },
+      {
+        title: "Einwurf zulassen",
+        items: [
+          "Wir vermeiden ein hartes Deny beim Einwurf, um einen Lobpass zu vermeiden und erhalten unsere defensive Struktur",
+          "Wir switchen die Blöcke",
+          "Wenn nötig, dirigieren wir den Ball zu schwächeren Ballhandlern"
+        ]
+      },
+      {
+        title: "Maximaler Druck am Ball",
+        items: [
+          "Wir üben sofort nach dem Einwurf maximalen und stetigen Druck am Ball aus und schränken die Passoptionen ein",
+          "Wir halten den Ballhandler unter stetigem Stress, um Turnover zu erzwingen"
+        ]
+      },
+      {
+        title: "Mitte zu",
+        items: [
+          "Wir machen die Mitte zu und zwingen den Ballhandler zur Seitenlinie",
+          "Wir lösen eine Trap für maximalen Druck aus, wenn ein unkontrolliertes Dribbling zur Seitenlinie erfolgt"
+        ]
+      },
+      {
+        title: "Keine Fouls",
+        items: [
+          "Wir vermeiden \"einfache\" Fouls, indem wir nicht reingreifen",
+          "Wir erzwingen Notpässe aus der Drucksituation heraus, die die absinkende Verteidigung abfangen kann"
+        ]
+      },
+      {
+        title: "Rotation der übrigen Verteidiger",
+        items: [
+          "Während der Trapsituation deckt die absinkende Verteidigung mögliche Passwege ab",
+          "Eine Verteidigung deckt die Seitenlinie ab, eine Verteidigung kontrolliert den 45°-Pass und eine Verteidigung schützt den Korb"
+        ]
+      }
+    ],
+    video: "fOjHM7kNyWI"
   },
   {
-    id: "druck-am-ball",
-    title: "2. Maximaler Druck am Ball",
+    id: "set-defense",
+    title: "2. Set Defense",
     content: [
-      "- Sofortiger, permanenter Druck auf die Ballführerin"
-    ]
-  },
-  {
-    id: "closeout",
-    title: "3. Harter Closeout",
-    content: [
-      "- Beim Closeout wird der Wurf geschlossen und das Ziehen provoziert"
-    ]
-  },
-  {
-    id: "hilfe",
-    title: "4. Frühe Hilfe",
-    content: [
-      "- Frühzeitige Hilfe verhindern Drives, machen Drives zu Pässen"
-    ]
-  },
-  {
-    id: "help-side",
-    title: "5. Help Side",
-    content: [
-      "- Die Weakside hilft früh und aggressiv unter Einbeziehung der Baseline"
+      {
+        title: "Mitte zu",
+        items: [
+          "Wir verhindern Drives durch die Mitte und lenken den Ball zur Seitenlinie."
+        ]
+      },
+      {
+        title: "Maximaler Druck am Ball",
+        items: [
+          "Wir üben permanenten Druck auf die Ballführerin und erhöhen den Stress am Ball, um Set Plays zu stören, Pässe zu erzwingen und Turnover zu forcieren."
+        ]
+      },
+      {
+        title: "Harter Closeout",
+        items: [
+          "Wir verhindern jeden Wurf und bringen die Ballführende dazu, zu ziehen anstatt zu werfen."
+        ]
+      },
+      {
+        title: "Frühe Hilfe der Help Side",
+        items: [
+          "Wir helfen frühzeitig bei Drives über die Baseline von der Gegenseite, verhindern einfache Punkte doppeln am Ball. Wir entscheiden, wie weit wir im Spiel dafür absinken müssen."
+        ]
+      },
+      {
+        title: "Wir verteidigen vor dem Ball",
+        items: [
+          "Wir verteidigen vor dem Ball, um den direkten Weg zum Korb zu verhindern. Jeder Drive wird zu einem Pass des Gegners."
+        ]
+      }
     ]
   }
 ];
