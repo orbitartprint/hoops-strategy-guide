@@ -72,19 +72,22 @@ const defensePrinciples = [
       {
         title: "Harter Closeout",
         items: [
-          "Wir verhindern jeden Wurf und bringen die Ballführende dazu, zu ziehen anstatt zu werfen."
+          "Wir stören jeden Wurf.",
+          "Jeder Wurfversuch des Gegners wird zu einem Drive."
         ]
       },
       {
         title: "Frühe Hilfe der Help Side",
         items: [
-          "Wir helfen frühzeitig bei Drives über die Baseline von der Gegenseite, verhindern einfache Punkte doppeln am Ball. Wir entscheiden, wie weit wir im Spiel dafür absinken müssen."
+          "Wir helfen frühzeitig bei Drives über die Baseline von der Gegenseite, verhindern einfache Punkte und doppeln am Ball.",
+          "Wir entscheiden, wie weit wir dafür absinken müssen."
         ]
       },
       {
         title: "Wir verteidigen vor dem Ball",
         items: [
-          "Wir verteidigen vor dem Ball, um den direkten Weg zum Korb zu verhindern. Jeder Drive wird zu einem Pass des Gegners."
+          "Wir verteidigen vor dem Ball, um den direkten Weg zum Korb zu verhindern.",
+          "Jeder Drive des Gegners wird zu einem Pass."
         ]
       }
     ]
