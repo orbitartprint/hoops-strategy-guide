@@ -10,12 +10,12 @@ const Index = () => {
         <img
           src="/lovable-uploads/0ec61829-fdfd-4d0d-afaa-8cca6fa651d1.png"
           alt="TSV Logo"
-          className="w-32 h-auto mb-4"  // Reduced size of TSV Logo
+          className="w-24 h-auto mb-4"  // Kleiner gemacht
         />
         <img
           src="/lovable-uploads/39357a08-4c38-4fa9-8536-a4bdcdaa5343.png"
           alt="Basketball Logo"
-          className="w-48 h-auto mb-4"  // Increased size of Basketball Logo
+          className="w-56 h-auto mb-4"  // Größer gemacht
         />
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
           Unsere Spielprinzipien
@@ -23,13 +23,13 @@ const Index = () => {
         <div className="flex flex-col w-full gap-6">
           <button 
             onClick={() => navigate("/offense")} 
-            className="nav-button rounded-xl px-12 py-6 text-2xl"
+            className="bg-[#f57520]/90 hover:bg-[#f57520] text-white rounded-xl px-12 py-6 text-2xl font-medium shadow-md"
           >
             Offense
           </button>
           <button 
             onClick={() => navigate("/defense")} 
-            className="nav-button rounded-xl px-12 py-6 text-2xl"
+            className="bg-[#f57520]/90 hover:bg-[#f57520] text-white rounded-xl px-12 py-6 text-2xl font-medium shadow-md"
           >
             Defense
           </button>
@@ -40,4 +40,3 @@ const Index = () => {
 };
 
 export default Index;
-

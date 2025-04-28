@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Offense from "./pages/Offense";
 import Defense from "./pages/Defense";
 import NotFound from "./pages/NotFound";
+import PasswordProtection from "./components/PasswordProtection";
 
 const queryClient = new QueryClient();
 
@@ -17,12 +18,14 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/offense" element={<Offense />} />
-          <Route path="/defense" element={<Defense />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <PasswordProtection>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/offense" element={<Offense />} />
+            <Route path="/defense" element={<Defense />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </PasswordProtection>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
