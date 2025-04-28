@@ -51,7 +51,7 @@ const offensePrinciples = [
           "Fließender Übergang von Transition in die Halfcourt-Offense.",
           "Erkennen von Vorteil oder Neutralität.",
           "Neutral heißt, alle Spieler werden verteidigt und wir haben keinen Vorteil, weil ein Gegenspieler zu weit weg ist, zu langsam, zu klein oder wir eine Überzahl irgendwo auf dem Feld haben (1-0, 2-1, usw.).",
-          "Bei Neutralität lösen wir ein Hand-off oder Screen aus.",
+          "Bei Neutralität lösen wir einen Hand-off oder Screen aus.",
           "Welche Screen- oder Hand-off-Varianten wir wählen und wie wir diese auf dem Feld kommunizieren, ist in Klärung und werden wir im Team gemeinsam erarbeiten."
         ]
       }
@@ -65,15 +65,6 @@ const offensePrinciples = [
         title: "Grundprinzip",
         items: [
           "Sobald ein Vorteil (Gegenspielerin zu weit weg, Gegenspielerin nicht in Position, Überzahl, Mismatch, usw.) entsteht, lassen wir die Defense wie Dominosteine kollabieren."
-        ]
-      },
-      {
-        title: "Wurfauswahl",
-        items: [
-          "Gold: Würfe in Korbnähe (Korbleger, Post-up, Floater, etc.)",
-          "Silber: Freier Dreier",
-          "Bronze: Freier Wurf aus der Mitteldistanz",
-          "Wurf gegen Verteidigung oder außerhalb des eigenen Repertoires"
         ]
       },
       {
@@ -100,6 +91,15 @@ const offensePrinciples = [
           "Gegenspielerin ist zu weit weg → Wurf",
           "Gegenspielerin kommt zu spät oder ist zu nah → Drive",
           "Hilfe kommt oder Verteidigung ist vor dem Ball → Pass"
+        ]
+      },
+      {
+        title: "Wurfauswahl",
+        items: [
+          "Gold: Würfe in Korbnähe (Korbleger, Post-up, Floater, etc.)",
+          "Silber: Freier Dreier",
+          "Bronze: Freier Wurf aus der Mitteldistanz",
+          "Wurf gegen Verteidigung oder außerhalb des eigenen Repertoires"
         ]
       }
     ]
