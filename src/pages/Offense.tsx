@@ -10,14 +10,13 @@ const offensePrinciples = [
       {
         title: "Wir pushen den Ball",
         items: [
-          "Jede pusht den Ball nach einem Ballgewinn mit schnellen harten Dribblings nach vorne. Auch nach dem Einwurf.",
-          "Wir sind explosiv."
+          "Jede pusht den Ballexplosiv mit schnellen harten Dribblings nach vorne. Immer!",
         ]
       },
       {
         title: "Umschalten ohne Verzögerung",
         items: [
-          "Wir orientieren uns ohne Verzögerung in die Offense und sprinten ins Vorfeld.",
+          "Wir orientieren uns OHNE Verzögerung in die Offense und sprinten ins Vorfeld.",
         ]
       },
       {
@@ -70,13 +69,13 @@ const offensePrinciples = [
       {
         title: "Null-Sekunden Entscheidungen",
         items: [
-          "Wir möchten schnelle Entscheidungen finden, um der Defense keine Chance zu geben, sich wieder zu sortieren."
+          "Wir finden schnelle Entscheidungen, um der Defense keine Chance zu geben, sich wieder zu sortieren."
         ]
       },
       {
         title: "Zone schnell freimachen",
         items: [
-          "Somit hat die Mitspielerin genügend Platz für den nächsten Drive."
+          "Wir machen Platz für den nächsten Drive."
         ]
       },
       {
