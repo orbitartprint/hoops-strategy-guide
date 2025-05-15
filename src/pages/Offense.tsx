@@ -16,7 +16,7 @@ const offensePrinciples = [
       {
         title: "Umschalten ohne Verzögerung",
         items: [
-          "Wir orientieren uns OHNE Verzögerung in die Offense und sprinten ins Vorfeld.",
+          "Wir sprinten OHNE Verzögerung in die Offense.",
         ]
       },
       {
