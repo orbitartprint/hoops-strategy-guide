@@ -72,7 +72,6 @@ const defensePrinciples = [
       {
         title: "Harter Closeout",
         items: [
-          "Wir stören jeden Wurf.",
           "Jeder Wurfversuch des Gegners wird zu einem Drive."
         ]
       },
@@ -80,7 +79,6 @@ const defensePrinciples = [
         title: "Frühe Hilfe der Help Side",
         items: [
           "Wir helfen frühzeitig bei Drives über die Baseline von der Gegenseite, verhindern einfache Punkte und doppeln am Ball.",
-          "Wir entscheiden, wie weit wir dafür absinken müssen."
         ]
       },
       {
