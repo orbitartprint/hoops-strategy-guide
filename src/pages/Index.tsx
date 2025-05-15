@@ -33,6 +33,12 @@ const Index = () => {
           >
             Defense
           </button>
+          <button 
+            onClick={() => navigate("/mindset")} 
+            className="bg-[#f57520]/90 hover:bg-[#f57520] text-white rounded-xl px-12 py-6 text-2xl font-medium shadow-md"
+          >
+            Mindset
+          </button>
         </div>
       </div>
     </div>
