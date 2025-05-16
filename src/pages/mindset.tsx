@@ -24,13 +24,6 @@ const mindsetPrinciples = [
         items: [
           "Wir gehen wertschätzend und motivierend miteinander um und behandeln den Gegner mit Respekt."
         ]
-      },
-      {
-        title: "Mitte zu",
-        items: [
-          "Wir machen die Mitte zu und zwingen den Ballhandler zur Seitenlinie.",
-          "Wir lösen eine Trap für maximalen Druck aus, wenn ein unkontrolliertes Dribbling zur Seitenlinie erfolgt."
-        ]
       }
     ]
   }
