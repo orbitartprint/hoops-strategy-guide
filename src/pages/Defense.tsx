@@ -84,7 +84,6 @@ const defensePrinciples = [
       {
         title: "Wir verteidigen vor dem Ball",
         items: [
-          "Wir verteidigen vor dem Ball, um den direkten Weg zum Korb zu verhindern.",
           "Jeder Drive des Gegners wird zu einem Pass."
         ]
       }
