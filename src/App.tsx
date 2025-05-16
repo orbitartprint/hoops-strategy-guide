@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Offense from "./pages/Offense";
 import Defense from "./pages/Defense";
+import Mindset from "./pages/Mindset";
 import NotFound from "./pages/NotFound";
 import PasswordProtection from "./components/PasswordProtection";
 
@@ -23,6 +24,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/offense" element={<Offense />} />
             <Route path="/defense" element={<Defense />} />
+            <Route path="/mindset" element={<Mindset />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </PasswordProtection>
