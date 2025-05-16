@@ -10,7 +10,7 @@ const offensePrinciples = [
       {
         title: "Wir pushen den Ball",
         items: [
-          "Jede pusht den Ballexplosiv mit schnellen harten Dribblings nach vorne. Immer!",
+          "Jede pusht den Ball explosiv mit harten Dribblings nach vorne. Immer!",
         ]
       },
       {
@@ -22,7 +22,7 @@ const offensePrinciples = [
       {
         title: "Sprint entlang der Seitenlinie",
         items: [
-          "Die Flügelspielerinnen laufen nahe der Seitenlinie und sind ab der Mittellinie anspielbar.",
+          "Wir laufen nahe der Seitenlinie und sind ab der Mittellinie anspielbar.",
         ]
       },
       {
