@@ -30,6 +30,13 @@ const Navigation = () => {
       >
         Offense
       </Button>
+      <Button
+        onClick={() => navigate("/mindset")}
+        variant="outline"
+        className="hover:bg-[#f57520]/10 bg-[#f57520]/10 rounded-xl border-[#f57520]/30"
+      >
+        Mindset
+      </Button>
     </div>
   );
 };
