@@ -66,7 +66,7 @@ const defensePrinciples = [
       {
         title: "Maximaler Druck am Ball",
         items: [
-          "Wir üben permanenten Druck auf die Ballführerin und erhöhen den Stress am Ball, um Set Plays zu stören, Pässe zu erzwingen und Turnover zu forcieren."
+          "Wir üben permanenten Druck auf die Ballführerin aus und erhöhen den Stress am Ball, um Set Plays zu stören, Pässe zu erzwingen und Turnover zu forcieren."
         ]
       },
       {
