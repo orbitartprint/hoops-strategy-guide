@@ -17,18 +17,18 @@ const Navigation = () => {
         Zurück
       </Button>
       <Button
-        onClick={() => navigate("/defense")}
-        variant="outline"
-        className="hover:bg-[#f57520]/10 bg-[#f57520]/10 rounded-xl border-[#f57520]/30"
-      >
-        Defense
-      </Button>
-      <Button
         onClick={() => navigate("/offense")}
         variant="outline"
         className="hover:bg-[#f57520]/10 bg-[#f57520]/10 rounded-xl border-[#f57520]/30"
       >
         Offense
+      </Button>
+      <Button
+        onClick={() => navigate("/defense")}
+        variant="outline"
+        className="hover:bg-[#f57520]/10 bg-[#f57520]/10 rounded-xl border-[#f57520]/30"
+      >
+        Defense
       </Button>
       <Button
         onClick={() => navigate("/mindset")}
