@@ -32,19 +32,24 @@ const mindsetPrinciples = [
     title: "Goldene Regeln",
     content: [
       {
-        title: "Ich dribble nur, um den Korb zu attackieren"
+        title: "Ich dribble nur, um den Korb zu attackieren",
+        items:[]
       },
       {
-        title: "Meine Füße zeigen zum Korb"
+        title: "Meine Füße zeigen zum Korb",
+        items:[]
       },
       {
-        title: "Ich laufe immer zurück"
+        title: "Ich laufe immer zurück",
+        items:[]
       },
       {
-        title: "Ich spiele harte Pässe"
+        title: "Ich spiele harte Pässe",
+        items:[]
       },
       {
-        title: "Ich laufe nach dem Pass"
+        title: "Ich laufe nach dem Pass",
+        items:[]
       }
     ]
   }
