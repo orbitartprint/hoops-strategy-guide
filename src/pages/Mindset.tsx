@@ -26,6 +26,27 @@ const mindsetPrinciples = [
         ]
       }
     ]
+  },
+  {
+    id: "golden",
+    title: "Goldene Regeln",
+    content: [
+      {
+        title: "Ich dribble nur, um den Korb zu attackieren"
+      },
+      {
+        title: "Meine Füße zeigen zum Korb"
+      },
+      {
+        title: "Ich laufe immer zurück"
+      },
+      {
+        title: "Ich spiele harte Pässe"
+      },
+      {
+        title: "Ich laufe nach dem Pass"
+      }
+    ]
   }
 ];
 
