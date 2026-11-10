@@ -25,6 +25,10 @@ have been removed so installations use the same patched dependencies as CI.
 After updating dependencies, commit both `package.json` and `package-lock.json`
 and verify with `npm ci`, `npm audit`, `npm run build`, and `npm run build:dev`.
 
+Dependabot checks npm dependencies weekly and groups security updates separately
+from routine minor and patch updates. Automatic security pull requests must also
+be enabled in the repository's Advanced Security settings.
+
 Follow these steps:
 
 ```sh
